@@ -65,10 +65,6 @@ RegistryOrgan('kubejs:fire_dragon_heart')
     .addScore('kubejs:dragon_blood', 1)
     .addScore('kubejs:fire_element', 0.5)
 
-RegistryOrgan('kubejs:fire_dragon_sac')
-    .addScore('kubejs:fire_element', 2)
-    .addScore('kubejs:dragon_blood', 1)
-
 RegistryOrgan('kubejs:fire_dragon_core')
     .addScore('kubejs:fire_element', 3)
     .addScore('kubejs:dragon_blood', 1)
@@ -138,10 +134,6 @@ RegistryOrgan('kubejs:ice_dragon_heart')
     .addScore('chestcavity:health', 2)
     .addScore('kubejs:dragon_blood', 1)
     .addScore('kubejs:ice_element', 0.5)
-
-RegistryOrgan('kubejs:ice_dragon_sac')
-    .addScore('kubejs:ice_element', 2)
-    .addScore('kubejs:dragon_blood', 1)
 
 RegistryOrgan('kubejs:ice_dragon_core')
     .addScore('kubejs:ice_element', 3)

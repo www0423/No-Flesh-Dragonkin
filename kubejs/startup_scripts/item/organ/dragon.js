@@ -19,7 +19,6 @@ StartupEvents.registry('item', event => {
 
     // ---------- 重要器官（5种） ----------
     event.create('kubejs:lightning_dragon_heart').maxStackSize(1).texture('kubejs:item/organs/dragon/lightning_dragon_heart').tag('kubejs:nature').tag('kubejs:heart').tag('kubejs:dragon').tag('kubejs:lightning')
-    event.create('kubejs:lightning_dragon_sac').maxStackSize(1).texture('kubejs:item/organs/dragon/lightning_dragon_sac').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:lightning')
     event.create('kubejs:lightning_dragon_core').maxStackSize(1).texture('kubejs:item/organs/dragon/lightning_dragon_core').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:lightning')
     event.create('kubejs:lightning_dragon_essence').maxStackSize(1).texture('kubejs:item/organs/dragon/lightning_dragon_essence').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:lightning')
     event.create('kubejs:lightning_dragon_scale').maxStackSize(1).texture('kubejs:item/organs/dragon/lightning_dragon_scale').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:lightning')
@@ -35,7 +34,6 @@ StartupEvents.registry('item', event => {
     event.create('kubejs:fire_dragon_muscle').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_muscle').tag('kubejs:nature').tag('kubejs:muscle').tag('kubejs:dragon').tag('kubejs:fire')
     event.create('kubejs:fire_dragon_intestine').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_intestine').tag('kubejs:nature').tag('kubejs:intestine').tag('kubejs:dragon').tag('kubejs:fire')
     event.create('kubejs:fire_dragon_heart').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_heart').tag('kubejs:nature').tag('kubejs:heart').tag('kubejs:dragon').tag('kubejs:fire')
-    event.create('kubejs:fire_dragon_sac').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_sac').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:fire')
     event.create('kubejs:fire_dragon_core').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_core').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:fire')
     event.create('kubejs:fire_dragon_essence').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_essence').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:fire')
     event.create('kubejs:fire_dragon_scale').maxStackSize(1).fireResistant().texture('kubejs:item/organs/dragon/fire_dragon_scale').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:fire')
@@ -51,7 +49,6 @@ StartupEvents.registry('item', event => {
     event.create('kubejs:ice_dragon_muscle').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_muscle').tag('kubejs:nature').tag('kubejs:muscle').tag('kubejs:dragon').tag('kubejs:ice')
     event.create('kubejs:ice_dragon_intestine').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_intestine').tag('kubejs:nature').tag('kubejs:intestine').tag('kubejs:dragon').tag('kubejs:ice')
     event.create('kubejs:ice_dragon_heart').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_heart').tag('kubejs:nature').tag('kubejs:heart').tag('kubejs:dragon').tag('kubejs:ice')
-    event.create('kubejs:ice_dragon_sac').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_sac').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:ice')
     event.create('kubejs:ice_dragon_core').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_core').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:ice')
     event.create('kubejs:ice_dragon_essence').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_essence').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:ice')
     event.create('kubejs:ice_dragon_scale').maxStackSize(1).texture('kubejs:item/organs/dragon/ice_dragon_scale').tag('kubejs:nature').tag('kubejs:dragon').tag('kubejs:ice')

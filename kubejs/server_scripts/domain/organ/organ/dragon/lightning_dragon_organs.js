@@ -65,9 +65,6 @@ RegistryOrgan('kubejs:lightning_dragon_heart')
     .addScore('kubejs:lightning_element', 0.5)
 // 特殊效果：每1龙血 → +0.25 生命（effects/lightning_dragon_heart.js）
 
-RegistryOrgan('kubejs:lightning_dragon_sac')
-    .addScore('kubejs:lightning_element', 2)
-    .addScore('kubejs:dragon_blood', 1)
 // 特殊效果：基础3s + 每1雷元素 → +0.18s 龙息喷射时长（在雷电龙息法术中实现）
 
 RegistryOrgan('kubejs:lightning_dragon_core')
