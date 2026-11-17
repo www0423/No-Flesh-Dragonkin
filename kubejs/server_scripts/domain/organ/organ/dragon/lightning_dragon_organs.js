@@ -77,8 +77,8 @@ RegistryOrgan('kubejs:lightning_dragon_essence')
     .addScore('kubejs:lightning_element', 1)
 // 特殊效果：每1龙血 → +0.5 力量（effects/lightning_dragon_essence.js）
 
-RegistryOrgan('kubejs:lightning_dragon_scale')
+RegistryOrgan('kubejs:lightning_dragon_reverse_scale')
     .addScore('chestcavity:defense', 3)
     .addScore('kubejs:dragon_blood', 1)
     .addScore('kubejs:lightning_element', 1)
-// 特殊效果：生命<25%触发逆鳞，力量翻倍（effects/lightning_dragon_scale.js）
+// 特殊效果：生命<25%触发逆鳞，力量翻倍（effects/lightning_dragon_reverse_scale.js）

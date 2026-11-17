@@ -1,6 +1,6 @@
 // priority: 500
 // ============================================================
-// 火龙逆鳞 · 特殊效果
+// 冰龙逆鳞 · 特殊效果
 // 生命低于 25% 时触发"逆鳞"：力量翻倍（攻击 ×2）
 // ============================================================
 
@@ -11,7 +11,7 @@
  * @param {number} organIndex
  * @param {string} slotType
  */
-function FireDragonScaleChestCavityUpdate(customData, event, organItem, organIndex, slotType) {
+function IceDragonScaleChestCavityUpdate(customData, event, organItem, organIndex, slotType) {
     const entity = event.entity
     if (!entity.isPlayer()) return
     const maxHealth = entity.getMaxHealth()
@@ -23,6 +23,6 @@ function FireDragonScaleChestCavityUpdate(customData, event, organItem, organInd
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:fire_dragon_scale')
-        .addStrategy('chest_cavity_update', FireDragonScaleChestCavityUpdate)
+    new OrganStrategyModel('kubejs:ice_dragon_reverse_scale')
+        .addStrategy('chest_cavity_update', IceDragonScaleChestCavityUpdate)
 )

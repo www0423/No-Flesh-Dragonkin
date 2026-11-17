@@ -5,11 +5,8 @@
 
 StartupEvents.registry('item', event => {
     // 火龙逆鳞
-    event.create('kubejs:fire_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/fire_dragon_reverse_scale').tag('kubejs:dragon')
     // 电龙逆鳞
-    event.create('kubejs:lightning_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/lightning_dragon_reverse_scale').tag('kubejs:dragon')
     // 冰龙逆鳞
-    event.create('kubejs:ice_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/ice_dragon_reverse_scale').tag('kubejs:dragon')
     // 炼狱龙心
     event.create('kubejs:inferno_heart').maxStackSize(1).texture('kubejs:item/organs/icefire/inferno_heart').tag('kubejs:dragon')
     // 炼狱晶核

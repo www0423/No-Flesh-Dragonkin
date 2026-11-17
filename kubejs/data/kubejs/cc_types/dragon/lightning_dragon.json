@@ -19,7 +19,7 @@
         {"item": "kubejs:lightning_dragon_heart", "position": 16},
         {"item": "kubejs:lightning_dragon_core", "position": 18},
         {"item": "kubejs:lightning_dragon_essence", "position": 19},
-        {"item": "kubejs:lightning_dragon_scale", "position": 20},
+        {"item": "kubejs:lightning_dragon_reverse_scale", "position": 20},
         {"item": "kubejs:lightning_dragon_spine", "position": 21},
         {"item": "kubejs:lightning_dragon_stomach", "position": 22},
         {"item": "kubejs:lightning_dragon_liver", "position": 23},

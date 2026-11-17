@@ -20,7 +20,7 @@ ClientEvents.lang('zh_cn', event => {
     event.add('item.kubejs.lightning_dragon_heart', '雷龙心')
     event.add('item.kubejs.lightning_dragon_core', '雷晶核')
     event.add('item.kubejs.lightning_dragon_essence', '雷龙血')
-    event.add('item.kubejs.lightning_dragon_scale', '雷龙逆鳞')
+    event.add('item.kubejs.lightning_dragon_reverse_scale', '雷龙逆鳞')
 
     // ---------- 火龙器官名 ----------
     event.add('item.kubejs.fire_dragon_stomach', '火龙胃')
@@ -35,7 +35,7 @@ ClientEvents.lang('zh_cn', event => {
     event.add('item.kubejs.fire_dragon_heart', '火龙心')
     event.add('item.kubejs.fire_dragon_core', '火晶核')
     event.add('item.kubejs.fire_dragon_essence', '火龙血')
-    event.add('item.kubejs.fire_dragon_scale', '火龙逆鳞')
+    event.add('item.kubejs.fire_dragon_reverse_scale', '火龙逆鳞')
 
     // ---------- 冰龙器官名 ----------
     event.add('item.kubejs.ice_dragon_stomach', '冰龙胃')
@@ -50,7 +50,7 @@ ClientEvents.lang('zh_cn', event => {
     event.add('item.kubejs.ice_dragon_heart', '冰龙心')
     event.add('item.kubejs.ice_dragon_core', '冰晶核')
     event.add('item.kubejs.ice_dragon_essence', '冰龙血')
-    event.add('item.kubejs.ice_dragon_scale', '冰龙逆鳞')
+    event.add('item.kubejs.ice_dragon_reverse_scale', '冰龙逆鳞')
 
     // ---------- 提示文字 ----------
     event.add('tooltips.kubejs.lightning_dragon_stomach.default.1', '从雷龙身上获得的胃部，蕴含龙血与雷元素')
@@ -69,8 +69,8 @@ ClientEvents.lang('zh_cn', event => {
     event.add('tooltips.kubejs.lightning_dragon_core.alt.1', '每 1 点龙血提供 1.5 吐息伤害；发动雷电龙息（穿透），CD 15 秒')
     event.add('tooltips.kubejs.lightning_dragon_essence.default.1', '雷龙的血液，龙血之精华')
     event.add('tooltips.kubejs.lightning_dragon_essence.alt.1', '每 1 点龙血增加 1 点力量')
-    event.add('tooltips.kubejs.lightning_dragon_scale.default.1', '雷龙逆鳞，触之必怒')
-    event.add('tooltips.kubejs.lightning_dragon_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
+    event.add('tooltips.kubejs.lightning_dragon_reverse_scale.default.1', '雷龙逆鳞，触之必怒')
+    event.add('tooltips.kubejs.lightning_dragon_reverse_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
 
     // ---------- 火龙提示 ----------
     event.add('tooltips.kubejs.fire_dragon_stomach.default.1', '从火龙身上获得的胃部，蕴含龙血与火元素')
@@ -89,8 +89,8 @@ ClientEvents.lang('zh_cn', event => {
     event.add('tooltips.kubejs.fire_dragon_core.alt.1', '每 1 点龙血提供 2 吐息伤害；发动火焰龙息（灼烧），CD 15 秒')
     event.add('tooltips.kubejs.fire_dragon_essence.default.1', '火龙的血液，龙血之精华')
     event.add('tooltips.kubejs.fire_dragon_essence.alt.1', '每 1 点龙血增加 1 点力量')
-    event.add('tooltips.kubejs.fire_dragon_scale.default.1', '火龙逆鳞，触之必怒')
-    event.add('tooltips.kubejs.fire_dragon_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
+    event.add('tooltips.kubejs.fire_dragon_reverse_scale.default.1', '火龙逆鳞，触之必怒')
+    event.add('tooltips.kubejs.fire_dragon_reverse_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
 
     // ---------- 冰龙提示 ----------
     event.add('tooltips.kubejs.ice_dragon_stomach.default.1', '从冰龙身上获得的胃部，蕴含龙血与冰元素')
@@ -109,6 +109,6 @@ ClientEvents.lang('zh_cn', event => {
     event.add('tooltips.kubejs.ice_dragon_core.alt.1', '每 1 点龙血提供 2 吐息伤害；发动冰霜龙息（减速），CD 15 秒')
     event.add('tooltips.kubejs.ice_dragon_essence.default.1', '冰龙的血液，龙血之精华')
     event.add('tooltips.kubejs.ice_dragon_essence.alt.1', '每 1 点龙血增加 1 点力量')
-    event.add('tooltips.kubejs.ice_dragon_scale.default.1', '冰龙逆鳞，触之必怒')
-    event.add('tooltips.kubejs.ice_dragon_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
+    event.add('tooltips.kubejs.ice_dragon_reverse_scale.default.1', '冰龙逆鳞，触之必怒')
+    event.add('tooltips.kubejs.ice_dragon_reverse_scale.alt.1', '生命低于 25% 时触发逆鳞：力量翻倍')
 })
