@@ -29,7 +29,16 @@
 - KubeJS 2001.6.5（Rhino）
 - Chest Cavity 2.16.7（胸腔）
 - Iron's Spells 'n Spellbooks（龙息）
-- Ice and Fire（冰火传说）
+- Ice and Fire 2.1.13-1.20.1-beta-5（冰火传说）
+
+## 基底模组（libs/）
+
+`libs/iceandfire-2.1.13-1.20.1-beta-5.jar` 是本拓展的**依赖基底**，随仓库一起保存，方便对照实体 ID、物品 ID、贴图与数值来源。
+
+- modId `iceandfire`（displayName `Ice and Fire`），依赖 `citadel` / `forge`；jar 内 5499 个条目。
+- 关键资源：`assets/iceandfire/lang/` 710 个语言文件、`assets/iceandfire/textures/item/` 385 张贴图、`data/iceandfire/recipes/` 409 个配方。
+- 我们只用它的**内容与数值**作为设计依据，不向 jar 内写入任何东西；所有新增逻辑仍在 `kubejs/` 主树。
+- 对照实体：`iceandfire:{fire,ice,lightning}_dragon`、`cyclops`、`gorgon`、`hydra`、`hippogryph`、`amphithere`、`sea_serpent`、`deathworm`、`troll`、`cockatrice`、`stymphalian_bird`、`siren`、`pixie`、`hippocampus`、`myrmex_*`、`dread_*`。
 
 ## 约定
 
