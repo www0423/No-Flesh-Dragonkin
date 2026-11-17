@@ -1,0 +1,16 @@
+{
+    "id": "iceanfire-pack",
+    "name": "Ice And Fire Content Pack",
+    "description": "ireandfire for No Flesh Within Chest-2",
+    "version": "1.0.0",
+    "authors": [
+        "sato"
+    ],
+    "dependencies": [
+        {
+            "type": "REQUIRED",
+            "id": "kubejs",
+            "ordering": "AFTER"
+        }
+    ]
+}
