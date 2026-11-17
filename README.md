@@ -19,21 +19,9 @@
 | `kubejs/data/kubejs/cc_inventory_types/dragon_25.json` | 25 格胸腔布局 |
 | `kubejs/client_scripts/` | 器官 tooltip 与中文 lang |
 | `kubejs/assets/kubejs/textures/item/organs/dragon/` | 器官贴图 |
-| `contentpacks/ice and fire/` | 冰火内容包（KubeJS Content Pack） |
+| `kubejs/server_scripts/const/dragon_organ_ids.js` | 99 件器官 ID 总表（按族分组） |
 
-## 内容包（contentpacks/ice and fire）— 只读参考
-
-`contentpack.json` id 为 `iceanfire-pack`，是本拓展的**依托与写法参考**。
-
-> **该目录只读，不得修改。** 包内的 `inferno_heart` / `inferno_blood` / `inferno_core`、`burning_with_inferno`、`import.js`、`import_func.js` 一律保持原样；新增器官写在 `kubejs/` 主树里。
-
-从包里可复用的写法（照抄风格，不照抄文件）：
-
-- **API 前缀**：内容包用下划线版 `_RegistryOrgan` / `_OrganStrategyModel` / `_RegistryOrganStrategy` / `_MultiStateTooltip` / `_RegistryOrganTooltip` / `_ApplyMultiStateTooltip`，由 `server_scripts/import_func.js` 通过 `ContentPacks.getShared(...)` 绑定；主 `kubejs/` 树用不带下划线的版本，两者不要混。
-- **龙血换算生命**：`customData.maxHealth.addAttributeModifier(bloodValue, 'addition', 'base')`。
-- **自定义效果当状态机**：`burning_with_inferno` 注册为 MobEffect，`getAmplifier()` 当等级，`entity_do_damage` 按等级放大、`entity_tick` 每秒扣 1% 生命。
-- **主动技**：`player.potionEffects.add(id, duration, level, false, false)` + `player.addItemCooldown(organItem, 20 * 秒)`，冷却参数传 ItemStack。
-- **炼狱分数**：包内用的是 `kubejs:hell_fire`。
+> 已移除 KubeJS Content Pack（原 `contentpacks/ice and fire/`）。全部器官一律以普通 KubeJS 脚本写在 `kubejs/` 主树，使用不带下划线的 `RegistryOrgan` / `OrganStrategyModel` / `RegistryOrganStrategy`，不再依赖 `ContentPacks.getShared(...)` 的下划线别名。
 
 ## 环境
 
