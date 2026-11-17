@@ -1,25 +1,13 @@
 // priority: 1000
 // 龙裔拓展 · 新增器官物品注册
 // 来源：冰火器官ID表.xlsx；已存在于 dragon.js 的物品不重复注册。
-// 本文件共注册 69 件（表中 99 件 - 已有 30 件）。
+// 本文件注册 63 件（表 99 - 已有 36）。
 
 StartupEvents.registry('item', event => {
-    // 火龙晶核
-    event.create('kubejs:fire_dragon_core').maxStackSize(1).texture('kubejs:item/organs/icefire/fire_dragon_core').tag('kubejs:dragon')
-    // 火龙精血
-    event.create('kubejs:fire_dragon_essence').maxStackSize(1).texture('kubejs:item/organs/icefire/fire_dragon_essence').tag('kubejs:dragon')
     // 火龙逆鳞
     event.create('kubejs:fire_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/fire_dragon_reverse_scale').tag('kubejs:dragon')
-    // 电龙晶核
-    event.create('kubejs:lightning_dragon_core').maxStackSize(1).texture('kubejs:item/organs/icefire/lightning_dragon_core').tag('kubejs:dragon')
-    // 电龙精血
-    event.create('kubejs:lightning_dragon_essence').maxStackSize(1).texture('kubejs:item/organs/icefire/lightning_dragon_essence').tag('kubejs:dragon')
     // 电龙逆鳞
     event.create('kubejs:lightning_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/lightning_dragon_reverse_scale').tag('kubejs:dragon')
-    // 冰龙晶核
-    event.create('kubejs:ice_dragon_core').maxStackSize(1).texture('kubejs:item/organs/icefire/ice_dragon_core').tag('kubejs:dragon')
-    // 冰龙精血
-    event.create('kubejs:ice_dragon_essence').maxStackSize(1).texture('kubejs:item/organs/icefire/ice_dragon_essence').tag('kubejs:dragon')
     // 冰龙逆鳞
     event.create('kubejs:ice_dragon_reverse_scale').maxStackSize(1).texture('kubejs:item/organs/icefire/ice_dragon_reverse_scale').tag('kubejs:dragon')
     // 炼狱龙心

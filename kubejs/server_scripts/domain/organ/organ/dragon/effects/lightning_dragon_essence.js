@@ -19,6 +19,6 @@ function LightningDragonBloodChestCavityUpdate(customData, event, organItem, org
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:lightning_dragon_blood')
+    new OrganStrategyModel('kubejs:lightning_dragon_essence')
         .addStrategy('chest_cavity_update', LightningDragonBloodChestCavityUpdate)
 )

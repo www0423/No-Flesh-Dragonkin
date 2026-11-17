@@ -18,6 +18,6 @@ function IceDragonBloodChestCavityUpdate(customData, event, organItem, organInde
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:ice_dragon_blood')
+    new OrganStrategyModel('kubejs:ice_dragon_essence')
         .addStrategy('chest_cavity_update', IceDragonBloodChestCavityUpdate)
 )

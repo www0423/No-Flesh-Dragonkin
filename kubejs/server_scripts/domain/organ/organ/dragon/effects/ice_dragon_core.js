@@ -32,7 +32,7 @@ function IceDragonCrystalCoreTakeOff(customData, event, organItem, organIndex, s
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:ice_dragon_crystal_core')
+    new OrganStrategyModel('kubejs:ice_dragon_core')
         .addStrategy('chest_cavity_update', IceDragonCrystalCoreChestCavityUpdate)
         .addOnlyStrategy('organ_take_off', IceDragonCrystalCoreTakeOff)
 )

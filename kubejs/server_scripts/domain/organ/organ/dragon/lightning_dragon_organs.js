@@ -70,15 +70,15 @@ RegistryOrgan('kubejs:lightning_dragon_sac')
     .addScore('kubejs:dragon_blood', 1)
 // 特殊效果：基础3s + 每1雷元素 → +0.18s 龙息喷射时长（在雷电龙息法术中实现）
 
-RegistryOrgan('kubejs:lightning_dragon_crystal_core')
+RegistryOrgan('kubejs:lightning_dragon_core')
     .addScore('kubejs:lightning_element', 3)
     .addScore('kubejs:dragon_blood', 1)
-// 特殊效果：每1龙血 → 1.5 吐息伤害；雷电龙息（穿透）CD15s（effects/lightning_dragon_crystal_core.js）
+// 特殊效果：每1龙血 → 1.5 吐息伤害；雷电龙息（穿透）CD15s（effects/lightning_dragon_core.js）
 
-RegistryOrgan('kubejs:lightning_dragon_blood')
+RegistryOrgan('kubejs:lightning_dragon_essence')
     .addScore('kubejs:dragon_blood', 3)
     .addScore('kubejs:lightning_element', 1)
-// 特殊效果：每1龙血 → +0.5 力量（effects/lightning_dragon_blood.js）
+// 特殊效果：每1龙血 → +0.5 力量（effects/lightning_dragon_essence.js）
 
 RegistryOrgan('kubejs:lightning_dragon_scale')
     .addScore('chestcavity:defense', 3)

@@ -32,7 +32,7 @@ function LightningDragonCrystalCoreTakeOff(customData, event, organItem, organIn
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:lightning_dragon_crystal_core')
+    new OrganStrategyModel('kubejs:lightning_dragon_core')
         .addStrategy('chest_cavity_update', LightningDragonCrystalCoreChestCavityUpdate)
         .addOnlyStrategy('organ_take_off', LightningDragonCrystalCoreTakeOff)
 )

@@ -18,6 +18,6 @@ function FireDragonBloodChestCavityUpdate(customData, event, organItem, organInd
 }
 
 RegistryOrganStrategy(
-    new OrganStrategyModel('kubejs:fire_dragon_blood')
+    new OrganStrategyModel('kubejs:fire_dragon_essence')
         .addStrategy('chest_cavity_update', FireDragonBloodChestCavityUpdate)
 )
